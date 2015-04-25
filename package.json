@@ -1,0 +1,26 @@
+{
+  "name": "react-flummox-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cuong <cuongcua90@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "babel": "^5.1.10",
+    "babel-core": "^5.1.10",
+    "babel-eslint": "^3.0.1",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.10.1",
+    "react-hot-loader": "^1.2.5",
+    "webpack": "^1.8.5",
+    "webpack-dev-server": "^1.8.0"
+  }
+}
